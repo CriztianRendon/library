@@ -45,8 +45,8 @@ function createBookCards(library){
                         <h2>Titulo: ${book.title} </h2>
                         <p>Autor: ${book.autor}</p>
                         <p>pages: ${book.pages}</p>
-                        <button id="toggleReadBtn" "type="button" class="btn ${isReadbtn}" onclick="changeReadStatus(${indexBook})">${isReadStatus}</button>
-                        <button id ="deleteBtn" type="button" class="btn btn-danger" onclick="deleteBook('${indexBook}')">Delete</button>
+                        <button id="toggleReadBtn" "type="button" class="btn btn-sm ${isReadbtn}" onclick="changeReadStatus(${indexBook})">${isReadStatus}</button>
+                        <button id ="deleteBtn" type="button" class="btn btn-danger btn-sm" onclick="deleteBook('${indexBook}')">Delete</button>
                     </div>
                 </div>
             </div>
